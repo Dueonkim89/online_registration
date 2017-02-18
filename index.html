@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Form Design</title>
+		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		
+		
+	
+		<div class="header">
+			<header>
+				<h1>The Code Review</h1>
+			</header>
+		</div>
+		<div class="newsletter">
+			<h1>Signup for our newsletter</h1>
+			<h2>Get the latest news on how your code is doing right in your inbox</h2>
+		</div>
+		
+		<form action="index.html" method="post">
+			<div class="contact">	
+				<h1>Contact Information</h1>
+				
+				<div class="box_768">
+					<label class="inline_768" for="name">Full Name</label>
+					<input type="text" id="name" name="full_user_name" placeholder="Required">
+				</div>
+				<div class="box_768">
+					<label class="inline_768" for="mail">Email Address</label>
+					<input type="email" id="mail" name="user_email" placeholder="Required">
+				</div>
+				<div class="box_768">
+					<label class="inline_768" for="p_number">Phone Number</label>
+					<input type="tel" id="p_number" name="phone_number">
+				</div>
+				<div class="box_768">
+					<label class="inline_768" for="address">Street Address</label>
+					<input type="text" id="address" name="address">
+				</div>
+				<div class="box_768">
+					<label class="inline_768" for="city">City</label>
+					<input type="text" id="city" name="city">
+				</div>
+				<div class="box_768">
+					<label class="inline_768" for="state">State</label>
+					<select id="state" name="state_choices">
+						<option value="" disabled selected>Choose State</option>
+						<option value="california">California</option>
+						<option value="new york">New York</option>
+						<option value="oregon">Oregon</option>
+						<option value="new jersey">New Jersey</option>
+						<option value="florida">Florida</option>
+						<option value="texas">Texas</option>
+						<option value="arizona">Arizona</option>
+						<option value="colorado">Colorado</option>
+						<option value="alabama">Alabama</option>
+						<option value="georgia">Georgia</option>
+						<option value="wisconsin">Wisconsin</option>
+					</select>
+				</div>
+				<div class="box_768">
+					<label class="inline_768" for="zip_code">Zip Code</label>
+					<input type="number" id="zip_code" name="zip_code">	
+				</div>
+			</div>	
+			
+			<div class="second_part">
+				<h1>Newsletter</h1>
+				
+				<label id="first">Select the newsletters you would like to receive</label>
+				
+				<div class="c_box">
+					<input type="checkbox" id="html_news" value="html_news" name="news"><label class="inline" for="html_news">HTML News</label>
+				</div>
+				<div class="c_box">
+					<input type="checkbox" id="css_news" value="css_news" name="news"><label class="inline" for="css_news">CSS News</label>
+				</div>
+				<div class="c_box">
+					<input type="checkbox" id="js_news" value="js_news" name="news"><label class="inline" for="js_news">Javascript News</label>
+				</div>
+				
+				<label id="second">Newsletter Format</label>
+				
+				<div class="c_box">
+					<input type="radio" id="html" value="html" name="radio"><label class="inline" for="html">HTML</label>
+				</div>
+				<div class="c_box">
+					<input type="radio" id="plain_text" value="plain_text" name="radio"><label class="inline" for="plain_text">Plain Text</label>
+				</div>
+				
+				<label id="third" for="other_topics">Other topics you'd like to hear about</label>
+				<textarea id="other_topics" name="other_topics"></textarea>
+				
+				<button type="submit">Sign Up</button>
+				
+			</div>
+			
+		</form>
+		
+		<footer>
+			<p>&copy; Copyright The Code Review</p>
+		</footer>
+		
+			
+	</body>
+</html>

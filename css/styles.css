@@ -13,6 +13,10 @@ body {
 	margin: 0;
 }
 
+fieldset {
+	border: none;
+}
+
 
 /* ================================= 
   Header & News Letter Area
@@ -30,7 +34,7 @@ header:first-child {
 
 .newsletter h1 {
 	text-align: center;
-	font-size: 1.50rem;
+	font-size: 1.20rem;
 	padding-top: 1.15rem;
 	margin-bottom: 1.25rem;
 	font-weight: bold;
@@ -63,15 +67,13 @@ header:first-child {
 	border-bottom: solid 2px #3d3d29;
 }
 
-form {
-	
-}
 
-.contact h1 {
-	font-size: 1.50rem;
-	padding-top: 1.25rem;
+#legend_one {
+	font-size: 1.2rem;
+	padding-top: 1.75rem;
 	margin-bottom: 1.75rem;
 	color: #00b8e6;
+	font-weight: bold;
 }
 
 label {
@@ -160,11 +162,12 @@ input:focus, textarea:focus {
 	margin-bottom: 1.25rem;
 }
 
-.second_part h1 {
+#legend_two {
 	font-size: 1.20rem;
-	padding-top: 1.25rem;
-	margin-bottom: 1.75rem;
+	padding-top: 1.75rem;
+	margin-bottom: 1.35rem;
 	color: #00b8e6;
+	font-weight: bold;
 }
 
 label.inline {

@@ -8,4 +8,4 @@ Optimal views are at 320px for mobile devices and 768px for tablets.
 
 All HTML & CSS written by me.
 
-NOTE: no javascript.
+NOTE: no javascript or server-side programming is enabled.
